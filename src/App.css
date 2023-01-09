@@ -1,41 +1,40 @@
-#root {
-  max-width: 1280px;
+.app_container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  background: url(./assets/sky_2.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main_container {
+  display: flex;
+  flex-flow: column;
+  margin: 25px auto;
+  padding-top: 1%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  display: block;
+  position: relative;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.6em;
+  margin: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .app_container {
+    background: url(./assets/sky_3.jpg) no-repeat center center/cover;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header {
+    font-size: 1.1rem;
+    margin: 10px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

@@ -1,0 +1,108 @@
+.input_container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input_section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: block;
+  font-size: 1.7rem;
+  color: #ffffff;
+  padding: 12px 16px;
+  background-color: #58545470;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+input[type="text"] {
+  font-family: inherit;
+}
+
+.autocomplete_container {
+  position: relative;
+  display: inline-block;
+  width: 370px;
+  margin: 0;
+  padding: 0;
+}
+
+.autocomplete_result {
+  list-style: none;
+  padding: 6px 8px;
+  border-top: 1px solid #d4d4d4;
+  background-color: #58545470;
+  color: #ffffff;
+}
+
+.autocomplete_result li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete_container li:hover {
+  background-color: #585454;
+}
+
+.separator {
+  font-size: 1.7rem;
+  margin: 0 25px;
+  color: #ffffff;
+}
+
+.btn {
+  font-family: inherit;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.3rem;
+  padding: 12px 16px;
+  background-color: #58545470;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  transition: transform 1s ease;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .input_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .input {
+    font-size: 1.2rem;
+    padding: 6px 8px;
+  }
+
+  .autocomplete_container {
+    width: 245px;
+  }
+
+  .separator {
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    margin-top: 12px;
+    font-size: 1rem;
+    padding: 6px 8px;
+  }
+}

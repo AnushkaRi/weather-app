@@ -1,0 +1,54 @@
+.weather_container {
+  margin-top: 30px;
+}
+
+.weather_section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location,
+.weather {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.temp {
+  font-size: 5rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.feels_like {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .weather_container {
+    margin: 0;
+    text-align: center;
+  }
+
+  .weather_section {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .location,
+  .weather {
+    font-size: 2.3rem;
+  }
+
+  .temp {
+    font-size: 4rem;
+  }
+
+  .feels_like {
+    font-size: 1.5rem;
+  }
+}
