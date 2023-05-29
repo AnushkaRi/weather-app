@@ -10,9 +10,9 @@ Simple and responsive Weather application with city autocomplete function build 
 
 # Mobile Version
 
-![mobile-autocomplete_mini](https://github.com/AnushkaRi/weather-app/assets/93154379/2427b565-5d41-4dc3-93fd-d94bb6ea351f)
+![mobile-autocomplete](https://github.com/AnushkaRi/weather-app/assets/93154379/839eea1e-b35d-4c8d-b90e-ee393eb2e621)
 
-![mobile_mini](https://github.com/AnushkaRi/weather-app/assets/93154379/57bc251e-748e-49f0-87b1-811717a05149)
+![mobile](https://github.com/AnushkaRi/weather-app/assets/93154379/723fa237-485a-4a39-bb13-af0fd73ad042)
 
 # Installation
 1. Clone this repo
