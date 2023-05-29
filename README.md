@@ -2,7 +2,7 @@
 
 Simple and responsive Weather application build with React.
 
-You can choose searching the city with help of autocomplete functionality or just click the "Get your Location" button.
+You can choose searching the city with help of autocomplete functionality or just click the "Get Your Location" button.
 
 # Desktop Version
 
