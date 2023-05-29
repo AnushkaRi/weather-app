@@ -17,10 +17,10 @@ Simple and responsive Weather application with city autocomplete function build 
 
 # Installation
 1. Clone this repo
-2. Run npm install
+2. Run `npm install`
 
 # Development
-1. npm start: Run the app in development mode.
-2. npm run build: Builds the app for production to the build folder.
+1. `npm start`: Run the app in development mode.
+2. `npm run build`: Builds the app for production to the build folder.
 
-** IMPORTANT NOTE:** Use your own OpenWeather Api and Rapid API - Geo DB to run this weather app.
+**IMPORTANT NOTE:** Use your own OpenWeather Api and Rapid API - Geo DB to run this weather app.
