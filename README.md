@@ -1,6 +1,7 @@
 # Weather App
 
-Simple and responsive Weather application with city autocomplete function build with React. 
+Simple and responsive Weather application build with React. 
+You can choose searching the city with help of autocomplete functionality or just click the "Get your Location" button.
 
 # Desktop Version
 
@@ -10,9 +11,9 @@ Simple and responsive Weather application with city autocomplete function build 
 
 # Mobile Version
 
-![mobile-autocomplete](https://github.com/AnushkaRi/weather-app/assets/93154379/839eea1e-b35d-4c8d-b90e-ee393eb2e621)
+![mobile-autocomplete_mini](https://github.com/AnushkaRi/weather-app/assets/93154379/7914e8ac-ef63-45f5-b0fa-31a7317bc32e)
 
-![mobile](https://github.com/AnushkaRi/weather-app/assets/93154379/723fa237-485a-4a39-bb13-af0fd73ad042)
+![mobile_mini](https://github.com/AnushkaRi/weather-app/assets/93154379/79509392-0af4-49c6-b8bb-949e6e580fd6)
 
 # Installation
 1. Clone this repo
