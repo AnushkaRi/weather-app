@@ -21,7 +21,6 @@ You can choose searching the city with help of autocomplete functionality or jus
 2. Run `npm install`
 
 # Development
-1. `npm start`: Run the app in development mode.
-2. `npm run build`: Builds the app for production to the build folder.
+ `npm run dev`: Run the app in development mode.
 
 **IMPORTANT NOTE:** Use your own OpenWeather Api and Rapid API - Geo DB to run this weather app.
