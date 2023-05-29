@@ -1,6 +1,7 @@
 # Weather App
 
-Simple and responsive Weather application build with React. 
+Simple and responsive Weather application build with React.\
+
 You can choose searching the city with help of autocomplete functionality or just click the "Get your Location" button.
 
 # Desktop Version
