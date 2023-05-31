@@ -1,6 +1,6 @@
 # Weather App
 
-Simple and responsive Weather application built with React.
+Simple and responsive Weather application built with React, OpenWeather API and RapidAPI - Geo DB Cities.
 
 You can choose searching the city with help of autocomplete functionality or just click the "Get Your Location" button.
 
@@ -23,4 +23,4 @@ You can choose searching the city with help of autocomplete functionality or jus
 # Development
  `npm run dev`: Run the app in development mode.
 
-**IMPORTANT NOTE:** Use your own OpenWeather Api and Rapid API - Geo DB to run this weather app.
+**IMPORTANT NOTE:** Use your own OpenWeather API and Rapid API - Geo DB cities to run this weather app.
